@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Matheus | Portfólio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Google+Sans+Code:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=sunny"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css"
+    />
+  </head>
+  <body class="toggle">
+    <object
+      type="image/svg+xml"
+      data="./src/icons/icons.svg"
+      style="display: none"
+    ></object>
+    <header class="head">
+      <nav class="navbar">
+        <ul>
+          <li>
+            <button id="light-dark" class="material-symbols-outlined">
+              sunny
+            </button>
+          </li>
+          <li><a href="#projects">Projetos</a></li>
+          <li><a href="#contact">Contatos</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section class="intro">
+      <div>
+        <img class="image" src="./src/matheus.jpeg" alt="Sou o Matheus!" />
+      </div>
+      <h1 id="main-text">Olá! Me chamo Matheus e sou um programador.</h1>
+    </section>
+    <section class="projects" id="projects">
+      <h2>MEUS PROJETOS</h2>
+      <ul>
+        <li>
+          <div class="project-unit">
+            <h3>Gerador de Grades</h3>
+            <img src="./src/Gerador_Grades.png" alt="" />
+            <p>
+              Projeto que utiliza de coleta e análise de dados para recomendar
+              grades de semestre para alunos do Ensino Superior.
+            </p>
+            <p>Stacks utilizadas:</p>
+            <div>
+              <ul class="stacks">
+                <li><i class="devicon-python-plain colored"></i></li>
+              </ul>
+            </div>
+            <a
+              href="https://github.com/matheus-rodrigues/Gerador_Grades"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Saiba mais</a
+            >
+          </div>
+        </li>
+        <li>
+          <div class="project-unit">
+            <h3>Cadastro de Produtos</h3>
+            <img src="./src/Produtos.png" alt="" />
+            <p>
+              Simples sistema de adição de produtos em um JSON utilizando
+              Node.js e Express.js para a atualização automática da página.
+            </p>
+            <p>Stackas utilizadas:</p>
+            <ul class="stacks">
+              <li><i class="devicon-nodejs-plain-wordmark colored"></i></li>
+              <li><i class="devicon-express-original-wordmark colored"></i></li>
+              <li><i class="devicon-html5-plain-wordmark colored"></i></li>
+              <li><i class="devicon-css3-plain-wordmark colored"></i></li>
+            </ul>
+            <a
+              href="https://github.com/matheus-rodrigues/Socket-Product"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Saiba mais</a
+            >
+          </div>
+        </li>
+        <li>
+          <div class="project-unit">
+            <h3>Projetos da Faculdade</h3>
+            <img src="./src/faculdade.png" alt="" />
+            <p>
+              No meu perfil do codesandbox.io você pode encontrar minhas
+              atividades e projetos desenvolvidos em minha graduação de
+              Engenharia de Software.
+            </p>
+            <p>Stacks utilizadas:</p>
+            <ul class="stacks">
+              <li><i class="devicon-html5-plain-wordmark colored"></i></li>
+              <li><i class="devicon-css3-plain-wordmark colored"></i></li>
+              <li><i class="devicon-javascript-plain colored"></i></li>
+            </ul>
+            <a
+              href="https://codesandbox.io/u/matheus_rrodrigues"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Saiba mais</a
+            >
+          </div>
+        </li>
+      </ul>
+    </section>
+    <footer class="end" id="contact">
+      <p>Entre em contato comigo!</p>
+      <div>
+        <a
+          href="https://www.linkedin.com/in/matheus-r-b79a1113a"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <svg class="icon">
+            <use
+              href="/src/icons/icons.svg#icon-linkedin"
+              xlink:href="/src/icons/icons.svg#icon-linkedin"
+            ></use>
+          </svg>
+        </a>
+
+        <a
+          href="https://github.com/matheus-rodrigues"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <svg class="icon">
+            <use
+              href="/src/icons/icons.svg#icon-github"
+              xlink:href="/src/icons/icons.svg#icon-github"
+            ></use>
+          </svg>
+        </a>
+        <a href="mailto:matheus.rrodrigues@al.infnet.edu.br">
+          <svg class="icon">
+            <use
+              href="/src/icons/icons.svg#icon-mail"
+              xlink:href="/src/icons/icons.svg#icon-mail"
+            ></use>
+          </svg>
+        </a>
+      </div>
+      <p>Matheus Rodrigues, 2025. Alguns direitos reservados.</p>
+    </footer>
+    <script src="./script.js"></script>
+  </body>
+</html>
